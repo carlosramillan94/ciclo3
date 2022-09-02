@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background: #a8ff78;
+    background: -webkit-linear-gradient(to left, #78ffd6, #a8ff78);
+    background: linear-gradient(to left, #78ffd6, #a8ff78);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* css index.html */
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 80px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #000;
+    
+}
+.banner_descripcion{
+   text-align: center;
+
+    
+}
+
+.banner_descripcion h1{
+    font-size: 100px;
+    font-weight: 600;
+    padding-top: 130px;
+}
+
+
+.back-video{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.contacto {
+    border: 2px solid #fff;
+    text-decoration: none;
+    display: inline-block;
+    color: aliceblue;
+    font-size: 24px;
+    padding: 14px 70px;
+    border-radius: 6px;  
+    margin-top: 20px;
+    
+
+}
+.contacto:hover{
+    background: #a8ff78;
+    background: -webkit-linear-gradient(to left, #78ffd6, #a8ff78);
+    background: linear-gradient(to left, #78ffd6, #a8ff78);
+    color: #000;
+    font-weight: bold;
+}
+
+.banner p {
+    opacity: 0.8;
+    margin: 2em 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* fin css index.html */
+.registro {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.registro h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: center;
+
+}
+
+.controls {
+    width: 100%;
+    background: #24303c;
+
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #a8ff78;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.registro p {
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    color: aliceblue;
+    
+}
+
+
+.registro .cuenta {
+    color: #fff;
+    margin: auto;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+
+}
+
+
+
+.registro .boton {
+    width: 100%;
+    background: linear-gradient(to left, #78ffd6, #a8ff78);
+    border: none;
+    padding: 12px;
+    color: #000;
+    margin: 16px 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+
+}
+
+@media (hover: hover) {
+    .boton:hover {
+        color: rgba(255, 255, 255, 0.4);
+        transition: 0.9s;
+        border-color: #000;
+    }
+}
