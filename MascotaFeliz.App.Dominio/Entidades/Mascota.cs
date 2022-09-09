@@ -1,7 +1,7 @@
 using System;
 namespace MascotaFeliz.App.Dominio
 {
-    public class Mascota
+        public class Mascota
     {
         public int Id {get;set;}
         public string Nombre {get;set;}
@@ -11,6 +11,5 @@ namespace MascotaFeliz.App.Dominio
         public Dueno Dueno {get;set;}
         public Veterinario Veterinario {get;set;}
         public Historia Historia {get;set;}
-        
     }
 }

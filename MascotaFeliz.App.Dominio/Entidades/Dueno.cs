@@ -7,5 +7,3 @@ namespace MascotaFeliz.App.Dominio
    
     }
 }
-
-// Dueño es la clase que elegí
