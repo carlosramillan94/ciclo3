@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Estilos.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <title>Registro Propietario</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Owner Form</title>
+    <link rel="stylesheet" href="../styles.css">
 </head>
-
 <body>
-    <section class="registro">
-        <div class="formulario">
-            <h4>Formulario de Registro</h4>
-            <input class="controls" type="text" name="datos" id="datos" placeholder=" ID">
-            <input class="controls" type="text" name="nombre" id="nombre" placeholder=" Nombre">
-            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder=" Apellido">
-            <input class="controls" type="text" name="direccion" id="dirección" placeholder=" Dirección">
-            <input class="controls" type="text" name="telefono" id="telefono" placeholder=" Teléfono">
-            <input class="controls" type="email" name="correo" id="correo" placeholder=" Correo">
-            <p>Estoy de acuerdo con los términos y condiciones</p>
-                <input class="boton" type="submit" value="Registrarse">
-            <p><a class="cuenta" href="#">Ya tengo cuenta</a></p>
+    <div class="bg-image"></div>
+    <div class="signupFrm">
+        <div class="wrapper">
+            <form action="" class="form">
+                <h1 class="title">Registro Nuevo Dueño</h1>
+                <div class="inputContainer">
+                    <input type="text" class="input" placeholder="a">
+                    <label for="" class="label">Nombres</label>
+                </div>
+                <div class="inputContainer">
+                    <input type="text" class="input" placeholder="a">
+                    <label for="" class="label">Apellidos</label>
+                </div>
+                <div class="inputContainer">
+                    <input type="text" class="input" placeholder="a">
+                    <label for="" class="label">Dirección</label>
+                </div>
+                <div class="inputContainer">
+                    <input type="text" class="input" placeholder="a">
+                    <label for="" class="label">Correo electrónico</label>
+                </div>
+                <input type="submit" class="submitBtn" value="Registrar">
+            </form>
         </div>
-    </section>
-
+    </div>
 </body>
-
 </html>
